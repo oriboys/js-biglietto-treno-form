@@ -29,6 +29,18 @@ h1{
 h2 {
   color: white;
 }
+
+.hidden {
+  /* display: none; */
+  filter: opacity(0);
+  transition: 0.5s;
+}
+
+.show {
+  /* display: block; */
+  filter: opacity(1);
+  transition: 1s;
+}
 /* inizio prima sezione  */
 .section-one{
   background-color: white;
@@ -85,7 +97,7 @@ h2 {
   padding: 20px;
   text-align: left;
 }
-.biglietto .row {
+#biglietto .row {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid grey;
