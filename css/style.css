@@ -13,17 +13,21 @@ body{
   width: 80%;
   margin: auto;
 }
-
+/* inizio prima sezione  */
 .section-one{
   background-color: white;
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
 }
 
 
 .section-one .row {
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section-one .row .col {
@@ -34,4 +38,31 @@ body{
 .section-one .row .col:nth-child(2){
   padding-right: 80px;
   padding-left: 80px;
+}
+
+
+.section-one .row .col input,
+.section-one .row .col select{
+  border-color: red;
+}
+
+.section-one button{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  color: red;
+}
+
+/* fine prima sezione  */
+
+/* inizio seconda sezione */
+
+.biglietto {
+  background-color: white;
+  display: flex;
+}
+
+.name {
+  padding-right: 30px;
+  background-color: lightgrey;
 }
