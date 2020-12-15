@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: rgba(218, 19, 36, 0.92);
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.section-one{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.section-one .row {
+  display: flex;
+}
+
+.section-one .row .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-one .row .col:nth-child(2){
+  padding-right: 80px;
+  padding-left: 80px;
+}
