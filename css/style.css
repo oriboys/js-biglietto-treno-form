@@ -9,9 +9,25 @@ body{
   background-color: rgba(218, 19, 36, 0.92);
 }
 
+
+.textchange {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
 .container{
-  width: 80%;
+  width: 60%;
   margin: auto;
+  text-align: center;
+}
+
+h1{
+  margin-top: 30px;
+  color: white;
+}
+
+h2 {
+  color: white;
 }
 /* inizio prima sezione  */
 .section-one{
@@ -21,6 +37,7 @@ body{
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 
@@ -53,16 +70,47 @@ body{
   color: red;
 }
 
+
+
 /* fine prima sezione  */
 
 /* inizio seconda sezione */
+.section-two {
+  width: 100%;
+}
+
 
 .biglietto {
   background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+.biglietto .row {
   display: flex;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  border-right: 0px;
 }
 
 .name {
   padding-right: 30px;
   background-color: lightgrey;
+
+}
+
+
+
+
+table{
+  text-align: center;
+  padding-left: 30px;
+}
+
+th {
+  width: calc(100% / 4);
+  padding-right: 50px;
+}
+td {
+  /* width: calc(100% / 4); */
+  padding-right: 50px;
 }
