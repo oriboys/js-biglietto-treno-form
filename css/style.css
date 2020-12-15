@@ -73,6 +73,22 @@ h2 {
 .section-one .row .col input,
 .section-one .row .col select{
   border-color: red;
+  padding: 4px 0px;
+  text-align: center;
+}
+
+
+
+.section-one .row .col input:focus,
+.section-one .row .col select:focus {
+  background-color: red;
+  color: white;
+}
+
+
+
+button:hover{
+  cursor: pointer;
 }
 
 .section-one button{
@@ -80,6 +96,8 @@ h2 {
   border-radius: 5px;
   background-color: lightgrey;
   color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
