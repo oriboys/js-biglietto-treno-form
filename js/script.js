@@ -58,7 +58,15 @@ var scomparsa = document.getElementById('annulla');
 scomparsa.addEventListener('click', function()
 {
 
-
   document.getElementById('biglietto').className = 'biglietto' + ' ' + 'hidden' ;
+    // devo svuotare tutto
+  document.getElementById('nome').value = " ";
+  document.getElementById('km').value = " ";
+  document.getElementById('eta').value = " ";
+
+  document.getElementById('offerta').value = " ";
+  document.getElementById('CostoBiglietto').value = " ";
+  document.getElementById('printedName').value = " ";
+
 
 });
